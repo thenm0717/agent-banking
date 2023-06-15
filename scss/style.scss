@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//basic
+@import 'basic/variables';
+@import 'basic/mixins';
+
+
+//block
+@import 'block/container';
+@import 'block/header';
+
+main {
+    background-color: $bg-primary;
+    font-family: 'Montserrat', sans-serif;
+}

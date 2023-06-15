@@ -1,0 +1,44 @@
+.header {
+    margin-bottom: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: $bg-secondary;
+
+    &__wrapper {
+        padding: 24px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo-wrapper {
+        width: 180px;
+        height: 48px;
+    }
+
+    &__logo {
+        width: auto;
+        height: 100%;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        width: max-content;
+        list-style-type: none;
+
+        &__link {
+            text-decoration: none;
+            color: $text-primary;
+            @include p1;
+        }
+    }
+
+    &__btn {
+        @include main-btn;
+    }
+}

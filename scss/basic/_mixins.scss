@@ -1,0 +1,20 @@
+
+//components
+@mixin main-btn {
+    background-color: $brand-color;
+    color: $text-white;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+    border-radius: 50px;
+    border: none;
+}
+
+//text-style
+@mixin p1 {
+    color: $text-primary;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
