@@ -12,9 +12,24 @@
 }
 
 //text-style
-@mixin p1 {
+@mixin nav {
     color: $text-primary;
     font-size: 16px;
     font-weight: 500;
     line-height: 130%;
+}
+
+@mixin main-h1 {
+    color: $text-white;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+@mixin main-h2 {
+    color: $text-primary;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
 }

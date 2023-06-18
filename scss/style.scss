@@ -12,8 +12,11 @@
 //block
 @import 'block/container';
 @import 'block/header';
+@import 'block/promo';
+@import 'block/advantage';
+@import 'block/products';
 
-main {
+body {
     background-color: $bg-primary;
     font-family: 'Montserrat', sans-serif;
 }

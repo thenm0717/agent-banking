@@ -1,5 +1,4 @@
 .header {
-    margin-bottom: 40px;
     position: fixed;
     left: 0;
     top: 0;
@@ -34,7 +33,7 @@
         &__link {
             text-decoration: none;
             color: $text-primary;
-            @include p1;
+            @include nav;
         }
     }
 
