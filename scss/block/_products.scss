@@ -7,11 +7,7 @@
     }
 
     &__wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        gap: 24px;
-        align-items: stretch;
+        @include flexbox-container;
     }
 
     &__card {

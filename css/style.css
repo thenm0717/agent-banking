@@ -133,8 +133,9 @@
 .advantage__wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  flex-grow: 1;
   gap: 24px;
+  align-items: stretch;
 }
 
 .advantage__card {
