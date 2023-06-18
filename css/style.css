@@ -132,16 +132,22 @@
 
 .advantage__wrapper {
   width: 1200px;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
   gap: 24px;
 }
 
 .advantage__card {
+  width: 384px;
+  height: auto;
   padding: 36px;
   background-color: #FFFFFF;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
