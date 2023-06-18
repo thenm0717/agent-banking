@@ -5,4 +5,38 @@
         @include main-h2;
         margin-bottom: 40px;
     }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        gap: 24px;
+        align-items: stretch;
+    }
+
+    &__card {
+        width: 588px;
+        height: auto;
+        border-radius: 24px;
+        background-color: $bg-secondary;
+        padding: 40px 40px 0 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    &__card-title {
+        width: 100%;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 130%;
+        color: $text-primary;
+    }
+
+    &__card-descr {
+        @include body-18;
+    }
 }

@@ -131,9 +131,7 @@
 }
 
 .advantage__wrapper {
-  width: 1200px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
   gap: 24px;
@@ -163,11 +161,12 @@
 }
 
 .advantage__card-descr {
+  display: block;
   width: 100%;
-  color: #2D2D2D;
   font-size: 18px;
   font-weight: 400;
   line-height: 130%;
+  color: #2D2D2D;
 }
 
 .products {
@@ -181,6 +180,44 @@
   line-height: 130%;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.products__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.products__card {
+  width: 588px;
+  height: auto;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  padding: 40px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
+.products__card-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #2D2D2D;
+}
+
+.products__card-descr {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #2D2D2D;
 }
 
 body {

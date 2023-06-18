@@ -33,3 +33,12 @@
     line-height: 130%;
     text-align: center;
 }
+
+@mixin body-18 {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    color: $text-primary;
+}
