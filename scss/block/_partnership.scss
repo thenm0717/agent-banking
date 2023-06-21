@@ -1,0 +1,68 @@
+.partnership {
+    margin-bottom: 120px;
+
+    &__wrapper {
+        @include flexbox-container;
+        gap: 32px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    &__agent {
+        width: 584px;
+        height: auto;
+        padding: 40px 24px;
+        background-color: $bg-secondary;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__agent-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 130%;
+        color: $text-primary;
+    }
+
+    &__agent-descr {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 130%;
+        color: $text-primary;
+        text-align: center;
+    }
+
+    &__agent-button {
+        @include main-btn;
+        font-weight: 500;
+    }
+
+    &__partner {
+        width: 584px;
+        height: auto;
+        padding: 40px 24px;
+        background-color: $bg-secondary;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__partner-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 130%;
+        color: $text-primary;
+    }
+
+    &__partner-img {
+        width: 500px;
+        height: auto;
+    }
+}
