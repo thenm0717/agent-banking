@@ -16,6 +16,7 @@
   top: 0;
   width: 100%;
   background-color: #FFFFFF;
+  z-index: 10;
 }
 
 .header__wrapper {
@@ -358,6 +359,87 @@
 
 .partnership__partner-img {
   width: 500px;
+  height: auto;
+}
+
+.baner {
+  margin-bottom: 120px;
+}
+
+.baner__wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #FF5A1E;
+  border-radius: 32px;
+  padding: 32px 100px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.baner__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: flex-start;
+}
+
+.baner__info {
+  width: 430px;
+  height: auto;
+}
+
+.baner__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.baner__descr {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.baner__stores {
+  display: flex;
+  gap: 16px;
+}
+
+.baner__qr-wrapper {
+  width: 310px;
+  border-radius: 18px;
+  padding: 12px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.baner__qr-descr {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #2D2D2D;
+}
+
+.baner__img-wrapper {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+}
+
+.baner__img {
+  width: 100%;
   height: auto;
 }
 
